@@ -1,5 +1,6 @@
 package com.example.lenovo.workoutapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,15 +23,29 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onBtnClicked(View v){
-
+            Intent i = new Intent(MainActivity.this,WorkoutActivity.class);
         switch(v.getId()){
             case R.id.Chest:
+                i.putExtra("Mode","chest");
+                startActivity(i);
             case R.id.Back:
+                i.putExtra("Mode","back");
+                startActivity(i);
             case R.id.Shoulder:
+                i.putExtra("Mode","shoulder");
+                startActivity(i);
             case R.id.Tricep:
+                i.putExtra("Mode","tri");
+                startActivity(i);
             case R.id.Bicep:
+                i.putExtra("Mode","bi");
+                startActivity(i);
             case R.id.Ab:
+                i.putExtra("Mode","ab");
+                startActivity(i);
             case R.id.Leg:
+                i.putExtra("Mode","leg");
+                startActivity(i);
         }
 
     }

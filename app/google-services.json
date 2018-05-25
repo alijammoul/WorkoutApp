@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "630738532078",
+    "firebase_url": "https://workoutapp-86458.firebaseio.com",
+    "project_id": "workoutapp-86458",
+    "storage_bucket": "workoutapp-86458.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630738532078:android:291e4f751dd19958",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.workoutapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630738532078-o660gce7d0lll35epdjahkqi346vdssr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "630738532078-o660gce7d0lll35epdjahkqi346vdssr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIZHqkkBHqsoUyjXY_c9zG-PFCrjkj0CQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

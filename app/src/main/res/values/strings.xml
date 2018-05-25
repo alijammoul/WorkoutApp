@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">WorkoutApp</string>
     <string name="title_activity_workout">WorkoutActivity</string>
+
+
+
+
+<string-array name="moves">
+<item>Manager</item>
+<item>Employee</item>
+
+
+</string-array>
+
 </resources>
